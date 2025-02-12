@@ -4,5 +4,5 @@ int main(){
     float r;
     float area=(pi*r*r)
     scanf("%f",&r);
-    printf("Area: %f",(pi*r*r));
+    printf("Area: %f",area);
 }
