@@ -3,14 +3,11 @@
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    double c=1;
-    for (double i=1;i<=b;i++){
-        c*=2;
-    }
-    if (a>=c){
-        printf("1");
+    int c=a>>b;
+    if (a%2==0){
+        printf("0");
     }
     else{
-        printf("0");
+        printf("1");
     }
 }
