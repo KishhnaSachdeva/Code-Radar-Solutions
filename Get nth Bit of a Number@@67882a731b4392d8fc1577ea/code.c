@@ -3,7 +3,7 @@
 int main(){
     int a,b;
     scanf("%d%d",&a,&b);
-    int c=pow(2,b);
+    double c=pow(2,b);
     if (a>=c){
         printf("1");
     }
