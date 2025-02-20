@@ -1,8 +1,15 @@
 #include <stdio.h>
-#include <math.h>
 int main(){
     int a,b,c;
+    c=1;
     scanf("%d%d",&a,&b);
-    c=pow(a,b);
-    printf("%d",c);
+    for (int i=0;i<b;i++){
+        c*=2
+    }
+    if (a>=c){
+        printf("%d",a-c);
+    }
+    else {
+        printf("%d",a+c);
+    }
 }
