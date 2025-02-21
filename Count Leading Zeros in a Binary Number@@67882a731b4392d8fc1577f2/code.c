@@ -9,7 +9,7 @@ int main(){
     for(int i=1;i<a;i++){
         c*=2;
         if (c>=a){
-            printf("%d",32-i);
+            printf("%d",31-i);
         }
     }
 }
